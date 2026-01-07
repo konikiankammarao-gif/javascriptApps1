@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script type="module">
+     import {studentNames,employee} from './module3.js';
+     const studentName = studentNames[1];
+     const empname = employee.emp_name;
+     document.getElementById("demo").innerHTML = ` student name is ${studentName} and employee name is ${empname}`;
+
+     </script>
+    
+</body>
+</html>
